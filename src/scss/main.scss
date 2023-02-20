@@ -40,7 +40,12 @@ input {
 .main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
-  position: absolute;
+  position: relative;
+  z-index: 1;
+}
+
+.header {
+  position: relative;
   z-index: 1;
 }
 
@@ -73,3 +78,4 @@ input {
 }
 
 @import './date.scss';
+@import './weather.scss';
