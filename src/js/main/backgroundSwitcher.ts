@@ -5,7 +5,7 @@ const sliderBtns: Array<HTMLButtonElement> = Array.from(document.querySelectorAl
 
 const pathToImg = 'https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/';
 
-function getRandomNum(min: number, max: number) {
+export function getRandomNum(min: number, max: number) {
   const rand = min + Math.random() * (max + 1 - min);
 
   return Math.floor(rand)

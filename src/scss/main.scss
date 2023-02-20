@@ -49,6 +49,14 @@ input {
   z-index: 1;
 }
 
+.footer {
+  position: relative;
+  z-index: 1;
+  .footer__quote {
+    margin: 200px auto 20px;
+  }
+}
+
 .sliderControls {
   .sliderControls__btn {
     position: absolute;
@@ -79,3 +87,4 @@ input {
 
 @import './date.scss';
 @import './weather.scss';
+@import './quote.scss';

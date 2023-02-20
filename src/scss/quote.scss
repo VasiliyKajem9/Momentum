@@ -1,0 +1,31 @@
+.quote {
+  text-align: center;
+  color: #fff;
+  font-size: 25px;
+  max-width: 50%;
+  .quote__refresh {
+    width: 36px;
+    height: 36px;
+    background-size: 36px 36px;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 20px;
+    &:hover {
+      cursor: pointer;
+      svg {
+        path {
+          fill: rgba(172, 255, 19, 0.753);
+        }
+      }
+    }
+  }
+  .quote__refresh_active{
+    transition: ease-in-out .4s all;
+    transform: rotate(360deg);
+  }
+
+  .quote__autor {
+    margin-top: 25px;
+    font-size: 20px;
+  }
+}
