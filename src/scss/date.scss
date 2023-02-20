@@ -1,0 +1,24 @@
+.date {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  .date__time {
+    font-size: 80px;
+  }
+
+  .date__date {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .date__greetingsContaner {
+    margin-top: 30px;
+    font-size: 30px;
+    .date__name {
+      max-width: 250px;
+    }
+  }
+}
