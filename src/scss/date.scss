@@ -22,3 +22,35 @@
     }
   }
 }
+
+@media (max-width: 630px) {
+  .date {
+    .date__time {
+      font-size: 40px;
+    }
+  
+    .date__date {
+      text-align: center;
+      font-size: 15px;
+    }
+  
+    .date__greetingsContaner {
+      font-size: 20px;
+      .date__name {
+        font-size: 20px;
+        max-width: 150px;
+      }
+    }
+  }
+}
+
+@media (max-width: 430px) {
+  .date {
+    .date__greetingsContaner {
+      .date__name {
+        font-size: 20px;
+        max-width: 100px;
+      }
+    }
+  }
+}

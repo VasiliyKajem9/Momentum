@@ -29,3 +29,25 @@
     font-size: 20px;
   }
 }
+
+@media (max-width: 875px) {
+  .quote {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 630px) {
+  .quote {
+    font-size: 18px;
+    .quote__refresh {
+      width: 26px;
+      height: 26px;
+      background-size: 26px 26px;
+      margin-bottom: 10px;
+    }
+    .quote__autor {
+      margin-top: 25px;
+      font-size: 16px;
+    }
+  }
+}

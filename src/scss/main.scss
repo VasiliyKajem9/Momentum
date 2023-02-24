@@ -64,7 +64,7 @@ input {
   position: relative;
   z-index: 1;
   .footer__quote {
-    margin: 200px auto;
+    margin: 200px auto ;
   }
 }
 
@@ -100,3 +100,17 @@ input {
 @import './weather.scss';
 @import './quote.scss';
 @import './audioPlayer.scss';
+
+@media (max-width: 630px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    .header__audioPlayer {
+      margin: 0 auto;
+    }
+
+    .header__weather {
+      margin: 0 auto;
+    }
+  }
+}
