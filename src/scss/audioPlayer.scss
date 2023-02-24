@@ -164,7 +164,6 @@
   padding: 5px;
   color: #fff;
   list-style-type: none;
-  text-align: center;
   .playList__elem {
     margin-bottom: 10px;
     &:hover {
@@ -175,8 +174,4 @@
   .playList__elem_active {
     color: $mainLightGreen;
   }
-}
-
-@media (max-width: 630px) {
-  
 }
