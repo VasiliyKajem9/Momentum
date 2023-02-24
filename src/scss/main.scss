@@ -6,6 +6,8 @@
   margin: 0;
 }
 
+$mainLightGreen: rgba(172, 255, 19, 0.753);
+
 input {
   border: none;
   background: inherit;
@@ -29,6 +31,10 @@ input {
   position: relative;
   transition: .6s ease-in-out all;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 1.3s ease-in-out all;
   .app__overlay {
     background-color: rgba(0, 0, 0, 0.356);
     width: 100%;
@@ -49,13 +55,16 @@ input {
 .header {
   position: relative;
   z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .footer {
   position: relative;
   z-index: 1;
   .footer__quote {
-    margin: 200px auto 20px;
+    margin: 200px auto;
   }
 }
 
@@ -81,7 +90,7 @@ input {
     }
     &:hover {
       cursor: pointer;
-      border: solid rgba(172, 255, 19, 0.753);
+      border: solid $mainLightGreen;
       border-width: 0 4px 4px 0;
     }
   }
@@ -90,3 +99,4 @@ input {
 @import './date.scss';
 @import './weather.scss';
 @import './quote.scss';
+@import './audioPlayer.scss';
